@@ -18,4 +18,16 @@
 ---
 <img src="https://www.ead.senac.br/arquivo/api/download/publico/1134" alt="drawing" width="400"/><br>
 Análise e Desenvolvimento de Sistemas - Senac 2020
-# JAVASCRIPT - Lista 1
+# JAVASCRIPT - Desenvolvimento de CRUD utilizando DOM (Projeto indicador 2)
+
+## Instruções
+Escolher um tema e enviar para a professora aprovar.
+Desenvolver uma tela que possua comandos de CRUD (visualização, atualização, exclusão e inclusão), em que sejam aplicados eventos e propriedades/métodos do DOM:
+
+Utilizar ao menos 3 eventos DIFERENTES (exemplo: onclick, onload, onmouseover)
+Utilizar ao menos 2 propriedades/métodos DIFERENTES (exemplo: document.getElementById, document.style.XYZ)
+
+Apresentar na aula de hoje, as 21:30.
+
+
+Para quem não compareceu na aula do dia 18/09/2020, apresentar na aula do dia 21/09/2020 (por ter mais tempo para desenvolver, seu projeto precisará estar de acordo com os padrões visuais já estudados em sala de aula)
