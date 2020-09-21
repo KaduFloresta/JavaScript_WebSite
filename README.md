@@ -16,7 +16,7 @@
 [![Facebook Badge](https://img.shields.io/badge/-Kadu_Floresta-lightblue?style=flat-square&logo=Facebook&logoColor=white&link=https://https://www.facebook.com/kadu.floresta)](https://https://www.facebook.com/kadu.floresta) 
 
 ---
-<img src="/img/senac.png" alt="drawing" width="200"/><br>
+<img src="/img/senac.png" alt="drawing" width="200"/>
 Análise e Desenvolvimento de Sistemas - Senac 2020
 # JAVASCRIPT - Desenvolvimento de CRUD utilizando DOM (Projeto indicador 2)
 
