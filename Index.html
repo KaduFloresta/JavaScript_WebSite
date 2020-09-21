@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Óros · O que está por vir?</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Descubra seu horóscopo com apenas seu nome e data de nascimento.">
+    <meta name=" author " content="Kadu Floresta">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="sortcut icon" href="../PaginaAtividade/img/favicon.png" type="image/x-icon" />;
+    <!-- <script src="js/Index.js"></script> -->
+    <script>
+
+        // $("#telefone").mask("(00) 0000-00009");
+
+        function salvarDados() {
+            var inputPrimeiroNome = document.getElementById("fname");
+            var valorPrimeiroNome = inputPrimeiroNome.value;
+            if (valorPrimeiroNome === "")
+                inputPrimeiroNome.style.backgroundColor = "red";
+            else
+                inputPrimeiroNome.style.backgroundColor = "blue";
+
+            var inputUltimoNome = document.getElementById("lname");
+            var valorUltimoNome = inputUltimoNome.value;
+            if (valorUltimoNome === "")
+                inputUltimoNome.style.backgroundColor = "red";
+            else
+                inputUltimoNome.style.backgroundColor = "blue";
+
+            var inputDataNascimento = document.getElementById("dataNasc");
+            var valorDataNascimento = inputDataNascimento.value;
+            if (valorDataNascimento === "")
+                inputDataNascimento.style.backgroundColor = "red";
+                
+            else
+                inputDataNascimento.style.backgroundColor = "blue";
+
+            var inputEmail = document.getElementById("email");
+            var valorEmail = inputEmail.value;
+            if (valorEmail === "")
+                inputEmail.style.backgroundColor = "red";
+            else
+                inputEmail.style.backgroundColor = "blue";
+
+            var inputTelefone = document.getElementById("tel");
+            var valorTelefone = inputTelefone.value;
+            if (valorTelefone === "")
+                inputTelefone.style.backgroundColor = "red";
+            else
+                inputTelefone.style.backgroundColor = "blue";
+
+            var inputSenha = document.getElementById("tel");
+            var valorSenha = inputSenha.value;
+            if (valorSenha === "")
+                inputSenha.style.backgroundColor = "red";
+            else
+                inputSenha.style.backgroundColor = "blue"
+
+            // Verificar o signo da Data de Nascimento
+            var dataSigno = valorDataNascimento.value;
+            dataSigno = returnMonth(dataSigno);
+            var signoUsuario = getSign(dataSigno);
+            alert("Signo: " + signoUsuario);
+        }
+
+        function validarData(id) {
+            var RegExPattern = /^((((0?[1-9]|[12]\d|3[01])[\.\-\/](0?[13578]|1[02])      [\.\-\/]((1[6-9]|[2-9]\d)?\d{2}))|((0?[1-9]|[12]\d|30)[\.\-\/](0?[13456789]|1[012])[\.\-\/]((1[6-9]|[2-9]\d)?\d{2}))|((0?[1-9]|1\d|2[0-8])[\.\-\/]0?2[\.\-\/]((1[6-9]|[2-9]\d)?\d{2}))|(29[\.\-\/]0?2[\.\-\/]((1[6-9]|[2-9]\d)?(0[48]|[2468][048]|[13579][26])|((16|[2468][048]|[3579][26])00)|00)))|(((0[1-9]|[12]\d|3[01])(0[13578]|1[02])((1[6-9]|[2-9]\d)?\d{2}))|((0[1-9]|[12]\d|30)(0[13456789]|1[012])((1[6-9]|[2-9]\d)?\d{2}))|((0[1-9]|1\d|2[0-8])02((1[6-9]|[2-9]\d)?\d{2}))|(2902((1[6-9]|[2-9]\d)?(0[48]|[2468][048]|[13579][26])|((16|[2468][048]|[3579][26])00)|00))))$/;
+
+            if (!((id.value.match(RegExPattern)) && (id.value != ''))) {
+                alert('Data inválida.');
+                id.focus();
+            }
+            else
+                alert('Data válida.');
+        }
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navegador">
+            <a href="#"><img src="img/favicon.png" class="icone"></a>
+            <ul class="nav-links ">
+                <h1 class="nomeSite">Óros · Horóscopos Diários</h1>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="conteudoVidente">
+        <img id="bolaCristal" src="img/bola.gif" alt="">
+    </div>
+
+    <div class="conteudoDados">
+        <input class="inputBox" type="text" id="fname" placeholder="Primeiro Nome">
+        <input class="inputBox" type="text" id="lname" placeholder="Último Nome">
+        <input class="inputBox" type="date" id="dataNasc" placeholder="Data de Nascimento" onclick="validarData()">
+        <input class="inputBox" type="email" id="email" placeholder="E-mail">
+        <input class="inputBox" type="tel" id="tel" placeholder="Telefone" pattern="\([0-9]{2}\)[\s][0-9]{4}-[0-9]{4,5}">
+        
+
+
+        <input class="inputBox" type="password" id="senha" placeholder="Senha">
+    </div>
+    <div>
+        <input class="btnSalvar" type="button" value="Salvar" onclick="salvarDados()">
+    </div>
+
+</body>
+
+</html>
