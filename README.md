@@ -10,12 +10,14 @@
 
 <code>👋🏽 Entre em contato!</code>
 
+[![Facebook Badge](https://img.shields.io/badge/-Kadu_Floresta-lightblue?style=flat-square&logo=Facebook&logoColor=white&link=https://https://www.facebook.com/kadu.floresta)](https://https://www.facebook.com/kadu.floresta)
 [![Twitter Badge](https://img.shields.io/badge/-@kadu_kururu-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/kadu_kururu)](https://twitter.com/kadu_kururu)
-[![Linkedin Badge](https://img.shields.io/badge/-Kadu_Floresta-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/kadufloresta/)](https://www.linkedin.com/in/kadufloresta/) 
+<br>
+[![Linkedin Badge](https://img.shields.io/badge/-Kadu_Floresta-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/kadufloresta/)](https://www.linkedin.com/in/kadufloresta/)
 [![Gmail Badge](https://img.shields.io/badge/-cefloresta1@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:cefloresta1@gmail.com)](mailto:cefloresta1@gmail.com)
-[![Facebook Badge](https://img.shields.io/badge/-Kadu_Floresta-lightblue?style=flat-square&logo=Facebook&logoColor=white&link=https://https://www.facebook.com/kadu.floresta)](https://https://www.facebook.com/kadu.floresta) 
-
+ 
 ---
+
 <img src="img/senac.png" alt="drawing" width="300"/><br>
 Análise e Desenvolvimento de Sistemas - Senac 2020
 
@@ -64,3 +66,5 @@ ___
 - Navbar - criar páginas fake para simular navegação
 - Linha e coluna - você define os espaçamentos conforme seu projeto
 - Controles de formulário do bootstrap
+
+---
