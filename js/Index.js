@@ -1,3 +1,7 @@
+function mostrarElemento(id, visibilidade) {
+    document.getElementById(id).style.display = visibilidade;
+}
+
 function CriarUsuario() {
     if ($("#nome").val() == null || $("#sobrenome").val() == "") {
         alert("Preencher todos os campos!");
