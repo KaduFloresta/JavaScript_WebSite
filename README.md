@@ -22,6 +22,7 @@
 Análise e Desenvolvimento de Sistemas - Senac 2020
 
 **Site Horóscopo - Óros**
+
 **1. Página Principal**
 - NavBar
 - Links
