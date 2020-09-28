@@ -91,6 +91,15 @@ li {
     margin: -201px 234px;
 }
 
+#conversa {
+    width: 260px;
+    height: 210px;
+    display: block;
+    position: absolute;
+    padding: 0;
+    margin: -94% 57%;
+}
+
 .signo1 {
     background: url(../img/brilho1.gif);
     background-size: 25%;
