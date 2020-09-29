@@ -28,9 +28,9 @@ nav {
 .pageName {
     float: left;
     color: #fbb03b;
-    padding-left: 58px;
-    margin-top: 5px;
-    font-size: 50px;
+    padding-left: 47px;
+    margin-top: 2px;
+    font-size: 46px;
 }
 
 .nav-links {
@@ -53,7 +53,7 @@ li {
 }
 
 .nav-links li:hover, .nav-links .active {
-    background-color: #34ccfe;
+    background-color: #886ce4;
 }
 
 .nav-links a {
@@ -75,7 +75,18 @@ li {
     text-align: center;
 }
 
-.vidente {
+#infoCadastro {
+    padding: 0px 10px;
+    margin-left: 102px;
+    margin-right: 100px;
+    font-size: 20px;
+    margin-top: -28px;
+    color: #fbb03b;
+    background-color: #2d2868;
+    background-size: -58%
+}
+
+#vidente {
     width: 548px;
     border: 4px solid #fbb03b;
     background-size: 100%;
@@ -84,20 +95,33 @@ li {
     border-radius: 15px;
 }
 
+#linkImagem {
+    position: relative;
+    display: block;
+}
+
+a span {
+    display: none;
+}
+
+a:hover span {
+    display: block;
+    position: absolute;
+}
+
+a:hover span {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 60%;
+    margin-top: -30px;
+}
+
 #bolaCristal {
     position: absolute;
     width: 90px;
     height: 88px;
     margin: -201px 234px;
-}
-
-#conversa {
-    width: 260px;
-    height: 210px;
-    display: block;
-    position: absolute;
-    padding: 0;
-    margin: -94% 57%;
 }
 
 .signo1 {
@@ -141,9 +165,9 @@ hr {
 }
 
 .copyright {
-    color: #fbb03b;
-    font-size: 10px;
-    margin-left: -90px;
+    color: #886ce4;
+    font-size: 13px;
+    margin: -2% 26%;
 }
 
 p {
