@@ -9,8 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Descubra seu horóscopo com apenas seu nome e data de nascimento.">
     <meta name=" author " content="Kadu Floresta">
-    <link rel="sortcut icon" href="../JavaScript_WebPage_CRUD/img/favicon.png" type="image/x-icon" />;
-    <link rel="stylesheet" href="../JavaScript_WebPage_CRUD/css/style.css">
+    <link rel="sortcut icon" href="img/favicon.png" type="image/x-icon" />;
+    <link rel="stylesheet" href="css/style.css">
     <!-- <script src="js/Index.js"></script> -->
 
     <!-- Bootstrap CSS -->
@@ -20,17 +20,19 @@
 
 <body class="bodyContent">
     <nav>
-        <h1 class="pageName">Óros</h1>
+        <h1 class="pageName">🔯 · Óros</h1>
         <ul class="nav-links ">
-            <li><a href="formulario.html">cadastro</a></li>
-            <li class="active"><a href="Index.html">home</a></li>
+            <li><a href="formulario.html">⭐️ cadastro</a></li>
+            <li class="active"><a href="Index.html">⭐️ home</a></li>
         </ul>
     </nav>
     <hr>
+    
     <div class="container">
+        <h4 id="infoCadastro">♈♉♊♋♌♎♏ Cadastre-se para receber informações sobre seu Signo ♍♎♏♐♑♒♓</h4>
         <div class="form-row">
             <div class="form-group col-3">
-                <img class="signo1" src="../JavaScript_WebPage_CRUD/img/signo1.png" alt="signo" usemap="#menu1">
+                <img class="signo1" src="img/signo1.png" alt="signo" usemap="#menu1">
 
                 <!-- Mapeamento da imagem -->
                 <map name="menu1">
@@ -44,17 +46,15 @@
             </div>
 
             <div class="form-group col-6">
-                <img class="vidente" src="img/vidente.png" alt="vidente"
-                onMouseOver="mostrarElemento('conversa', 'inline');"
-                onMouseOut="mostrarElemento('conversa', 'none');">
-
+                
+                <a id="linkImagem" href="#"><img id="vidente" src="img/vidente.png" alt="vidente"><span>
+                    <img src="img/balao.png" alt="balao" width="260px" height="210px"/></span></a>
+                
                 <img id="bolaCristal" src="img/bola.gif" alt="bolaDeCristal">
-
-                <img id="conversa" src="img/balao.png" alt="conversaDaVidente">
             </div>
 
             <div class="form-group col-3">
-                <img class="signo2" src="../JavaScript_WebPage_CRUD/img/signo2.png" alt="signo" usemap="#menu2">
+                <img class="signo2" src="img/signo2.png" alt="signo" usemap="#menu2">
 
                 <!-- Mapeamento da Imagem -->
                 <map name="menu2">
