@@ -24,7 +24,7 @@
 
 ---
 
-**Site Horóscopo - Óros**
+## Site Horóscopo - Óros**
 
 **1. Página Principal** 
 - NavBar
