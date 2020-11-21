@@ -36,16 +36,17 @@
 1. Escolher um tema e enviar para a professora aprovar.
 2. Desenvolver uma tela que possua comandos de CRUD (visualização, atualização, exclusão e inclusão), em que sejam aplicados eventos e propriedades/métodos do DOM:
 
-[X] Utilizar ao menos 3 eventos DIFERENTES (exemplo: onclick, onload, onmouseover)
-[X] Utilizar ao menos 2 propriedades/métodos DIFERENTES<br> 
+- [X] Utilizar ao menos 3 eventos DIFERENTES (exemplo: onclick, onload, onmouseover)
+- [X] Utilizar ao menos 2 propriedades/métodos DIFERENTES
+
 (Exemplo: document.getElementById, document.style.XYZ)
 ---
 
 **SEGUNDA ENTREGA - 02/10**
 1. Site inteiro desenvolvido com componentes do bootstrap
-[X] Navbar - criar páginas fake para simular navegação
-[X] Linha e coluna - você define os espaçamentos conforme seu projeto
-[X] Controles de formulário do bootstrap
+- [X] Navbar - criar páginas fake para simular navegação
+- [X] Linha e coluna - você define os espaçamentos conforme seu projeto
+- [X] Controles de formulário do bootstrap
 
 ---
 
